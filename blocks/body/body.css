@@ -1,7 +1,10 @@
 .body {
-    min-width: 320px;
-    max-width: 375px;
+    min-width: 375px;
+    max-width: 600px;
     margin: 0 auto;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;

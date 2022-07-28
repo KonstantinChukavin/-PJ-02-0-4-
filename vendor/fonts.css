@@ -1,20 +1,20 @@
 @font-face {
-    src: url(./fonts/Inter-Black.woff2) format('woff2'),
-        url(./fonts/Inter-Black.woff) format('woff');
-    font-family: 'inter';
-    font-weight: 900;
+    src: url(./fonts/NunitoSans-Regular.ttf) format('ttf');
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 @font-face {
-    src: url(./fonts/Inter-Regular.woff2) format('woff2'),
-        url(./fonts/Inter-Regular.woff) format('woff');
-    font-family: 'inter';
-    font-weight: normal;
+    src: url(./fonts/NunitoSans-Italic.ttf) format('ttf');
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
 }
 
 @font-face {
-    src: url(./fonts/Inter-Bold.woff) format('woff2'),
-        url(./fonts/Inter-Bold.woff2) format('woff');
-    font-family: 'inter';
-    font-weight: bold;
+    src: url(./fonts/YesevaOne-Regular.ttf) format('ttf');
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
 }
