@@ -2,15 +2,34 @@
 /*__________________________________________________________*/
 @import url(../vendor/fonts.css);
 /*__________________________________________________________*/
+@import url(../blocks/disable/disable.css);
+/*__________________________________________________________*/
 @import url(../blocks/body/body.css);
 /*__________________________________________________________*/
 @import url(../blocks/logo/logo.css);
 /*__________________________________________________________*/
+@import url(../blocks/link/link.css);
+/*__________________________________________________________*/
 @import url(../blocks/black-style/black-style.css);
 /*__________________________________________________________*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__button/header__button.css);
 /*__________________________________________________________*/
-@import url(../blocks/header-logo/header-logo.css);
+
+/*__________________________________________________________*/
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__links/nav__links.css);
 /*__________________________________________________________*/
 @import url(../blocks/phone/phone.css);
+/*__________________________________________________________*/
+@import url(../blocks/button/button.css);
+
+
+
+
+
+/*__________________________________________________________*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__button/footer__button.css);
 /*__________________________________________________________*/

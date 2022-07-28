@@ -1,7 +1,11 @@
-.logo {
+.nav__link {
     margin: 0;
+    margin-right: 47px;
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
-    color: rgba(227, 184, 115, 1);
+}
+
+.nav__link:last-child {
+    margin-right: 0;
 }
