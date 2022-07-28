@@ -1,6 +1,5 @@
 .body {
     min-width: 320px;
-    max-width: 375px;
     margin: 0 auto;
     font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -11,10 +10,5 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-}
-
-@media screen and (min-width: 1155px) {
-    .body {
-        max-width: 1440px;
-    }
+    color: #FFF;
 }

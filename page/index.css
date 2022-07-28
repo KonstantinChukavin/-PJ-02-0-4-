@@ -13,9 +13,10 @@
 @import url(../blocks/black-style/black-style.css);
 /*__________________________________________________________*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/hyader__logo.css);
 @import url(../blocks/header/__button/header__button.css);
 /*__________________________________________________________*/
-
+@import url(../blocks/content/content.css);
 /*__________________________________________________________*/
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__link/nav__link.css);
@@ -24,12 +25,24 @@
 @import url(../blocks/phone/phone.css);
 /*__________________________________________________________*/
 @import url(../blocks/button/button.css);
-
-
+/*__________________________________________________________*/
+@import url(../blocks/text-style/text-style.css);
+/*__________________________________________________________*/
+@import url(../blocks/title/title.css);
+/*__________________________________________________________*/
+@import url(../blocks/suptitle/suptitle.css);
+/*__________________________________________________________*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__suptitle/cover__suptitle.css);
+@import url(../blocks/cover/__button/cover__button.css);
+@import url(../blocks/cover/__button/_style/cover__button_style.css);
 
 
 
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__button/footer__button.css);
 /*__________________________________________________________*/
