@@ -1,0 +1,11 @@
+.projects__grid {
+    margin: 0 18px 0;
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 3 1fr;
+    gap: 38px 38px;
+    grid-template-areas:
+        "slider slider"
+        "sity apartament"
+        "time cost"
+}

@@ -38,6 +38,25 @@
 @import url(../blocks/cover/__suptitle/cover__suptitle.css);
 @import url(../blocks/cover/__button/cover__button.css);
 @import url(../blocks/cover/__button/_style/cover__button_style.css);
+/*__________________________________________________________*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__suptitle/projects__suptitle.css);
+@import url(../blocks/projects/__grid/projects__grid.css);
+@import url(../blocks/projects/__grid-slider/projects__grid-slider.css);
+@import url(../blocks/projects/__grid-city/projects__grid-city.css);
+@import url(../blocks/projects/__grid-apartament/projects__grid-apartament.css);
+@import url(../blocks/projects/__grid-cost/projects__grid-cost.css);
+@import url(../blocks/projects/__grid-time/projects__grid-time.css);
+@import url(../blocks/projects/__title-gryd/projects__title-gryd.css);
+@import url(../blocks/projects/__suptitle-gryd/projects__suptitle-gryd.css);
+/*__________________________________________________________*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button-img/slider__button-img.css);
+@import url(../blocks/slider/__item/slider__item.css);
+
+/*__________________________________________________________*/
 
 
 
