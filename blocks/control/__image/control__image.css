@@ -1,0 +1,10 @@
+.control__image {
+    width: 32px;
+    margin: 0;
+    margin-right: 9px;
+    border-radius: 30px;
+}
+
+.control__image:last-child {
+    margin-right: 0;
+}

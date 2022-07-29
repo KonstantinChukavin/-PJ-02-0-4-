@@ -57,7 +57,16 @@
 @import url(../blocks/slider/__item/slider__item.css);
 /*__________________________________________________________*/
 @import url(../blocks/control/control.css);
-
+@import url(../blocks/control/__title/control__title.css);
+@import url(../blocks/control/__image-block/control__image-block.css);
+@import url(../blocks/control/__image/control__image.css);
+@import url(../blocks/control/__video/control__video.css);
+@import url(../blocks/control/__button/control__button.css);
+@import url(../blocks/control/__video-block/control__video-block.css);
+@import url(../blocks/control/__button-img/control__button-img.css);
+@import url(../blocks/control/__suptitle/control__suptitle.css);
+@import url(../blocks/control/__image-long/control__image-long.css);
+@import url(../blocks/control/__form/control__form.css);
 
 
 /*__________________________________________________________*/

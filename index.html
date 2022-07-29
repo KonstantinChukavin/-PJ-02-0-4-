@@ -67,20 +67,33 @@
         <section class="control black-style">
             <h2 class="title control__title">online control</h2>
             <div class="control__image-block">
-                <img class="control__image" src="#" alt="#">
-                <img class="control__image" src="#" alt="#">
-                <img class="control__image" src="#" alt="#">
+                <img class="control__image" src="./images/control/line.svg" alt="line">
+                <img class="control__image" src="./images/control/cam.svg" alt="camera">
+                <img class="control__image" src="./images/control/line.svg" alt="line">
             </div>
-            <video class="control__video" src="#" poster="#">
-                <button class="button slider__button">
-                    <img class="control__video-img" alt="#">
+            <div class="control__video-block">
+                <video class="control__video" src="#" poster="./images/control/video_poster-litle.jpg">
+                </video>
+                <button class="button slider__button control__button">
+                    <img class="control__button-img" src="./images/control/button.svg" alt="button image">
                 </button>
-            </video>
+            </div>
+            <img class="control__image-long" src="./images/control/line_long.svg" alt="line">
             <p class="suptitle control__suptitle">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
             <form class="form control__form" name="control form">
-                <input class="input control__input" name="" type="text" placeholder="Name" pattern="What is your name:" value="Name" form="control form">
-                <input class="input control__input" name="" type="number" placeholder="Number" pattern="Your phone number:" value="phone" form="control form">
+                <label class="label-input">
+                    <input class="input control__input" name="" type="text" placeholder="What is your name:" value="Name" form="control form">
+                </label>
+                <label class="label-input">
+                    <input class="input control__input" name="" type="number" placeholder="Your phone number:" value="phone" form="control form">
+                </label>
+                <label class="label-input label-input__checkbox">
+                    <input class="input control__input checkbox" name="" type="checkbox" placeholder="checkbox" pattern="I agree to the processing of personal data" value="checkbox" form="control form">
+                    <span class="checkbox-fake"></span>
+                    <span class="checkbox-text">I agree to the processing of personal data</span>
+                </label>
             </form>
+            <button class="buttot">What is your name:</button>
         </section>
         <section class="section">
 
