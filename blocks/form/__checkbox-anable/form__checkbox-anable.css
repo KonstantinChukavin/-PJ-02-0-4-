@@ -1,0 +1,14 @@
+.form__checkbox-anable {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.form__checkbox-anable::before {
+    content: "\2714";
+    opacity: 0;
+    transition: .2s;
+}

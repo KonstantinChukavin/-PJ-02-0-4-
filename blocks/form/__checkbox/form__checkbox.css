@@ -1,0 +1,11 @@
+.form__checkbox {
+    margin: 0;
+    margin-right: 9px;
+    width: 18px;
+    height: 18px;
+    display: none;
+}
+
+.form__checkbox:checked+.form__checkbox-anable::before {
+    opacity: 1;
+}

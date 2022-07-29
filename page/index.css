@@ -67,6 +67,18 @@
 @import url(../blocks/control/__suptitle/control__suptitle.css);
 @import url(../blocks/control/__image-long/control__image-long.css);
 @import url(../blocks/control/__form/control__form.css);
+@import url(../blocks/control/__input/control__input.css);
+@import url(../blocks/control/__button-submit/control__button-submit.css);
+/*__________________________________________________________*/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__suptitle/form__suptitle.css);
+@import url(../blocks/form/__label-input/form__label-input.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__label-checkbox/form__label-checkbox.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__checkbox-anable/form__checkbox-anable.css);
+@import url(../blocks/form/__checkbox-text/form__checkbox-text.css);
+/*__________________________________________________________*/
 
 
 /*__________________________________________________________*/

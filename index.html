@@ -21,7 +21,7 @@
             </ul>
         </nav>
         <a href="#" class="phone link">+7 (928) 768-32-39</a>
-        <button class="button header__button disable">Request a call</button>
+        <button class="button header__button disable" type="button">Request a call</button>
     </header>
     <main class="content">
         <section class="cover">
@@ -31,8 +31,8 @@
                 <p class="suptitle cover__suptitle">Get ready-made turnkey repairs on time
                     with work time saving up to 45 days and 
                     20% from cost of materials due to the organization of work</p>
-                <button class="button cover__button">CALCULATE THE COST</button>
-                <button class="button cover__button cover__button_style">APPLICATION</button>
+                <button class="button cover__button" type="button">CALCULATE THE COST</button>
+                <button class="button cover__button cover__button_style" type="button">APPLICATION</button>
             </div>
         </section>
         <section class="projects black-style">
@@ -42,8 +42,8 @@
                 <div class="projects__grid-slider">
                     <img class="projects__slider-img" src="./images/projects/project1_litle.jpg" alt="image project 1">
                     <div class="slider__item">
-                        <button class="button slider__button"><img class="slider__button-img" src="./images/projects/Stroke_left.svg"></button>
-                        <button class="button slider__button"><img class="slider__button-img" src="./images/projects/Stroke_right.svg"></button>
+                        <button class="button slider__button" type="button"><img class="slider__button-img" src="./images/projects/Stroke_left.svg"></button>
+                        <button class="button slider__button" type="button"><img class="slider__button-img" src="./images/projects/Stroke_right.svg"></button>
                     </div>
                 </div>
                 <div class="projects__grid-city">
@@ -74,26 +74,28 @@
             <div class="control__video-block">
                 <video class="control__video" src="#" poster="./images/control/video_poster-litle.jpg">
                 </video>
-                <button class="button slider__button control__button">
+                <button class="button slider__button control__button" type="button">
                     <img class="control__button-img" src="./images/control/button.svg" alt="button image">
                 </button>
             </div>
             <img class="control__image-long" src="./images/control/line_long.svg" alt="line">
             <p class="suptitle control__suptitle">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
             <form class="form control__form" name="control form">
-                <label class="label-input">
-                    <input class="input control__input" name="" type="text" placeholder="What is your name:" value="Name" form="control form">
+                <label class="form__label-input">
+                    <p class="suptitle form__suptitle">Name</p>
+                    <input class="form__input control__input" name="name" type="text" placeholder="What is your name:" value="What is your name:" form="control form">
                 </label>
-                <label class="label-input">
-                    <input class="input control__input" name="" type="number" placeholder="Your phone number:" value="phone" form="control form">
+                <label class="form__label-input">
+                    <p class="suptitle form__suptitle">Number</p>
+                    <input class="form__input control__input" name="namber" type="tel" placeholder="Your phone number:" value="Your phone number:" form="control form">
                 </label>
-                <label class="label-input label-input__checkbox">
-                    <input class="input control__input checkbox" name="" type="checkbox" placeholder="checkbox" pattern="I agree to the processing of personal data" value="checkbox" form="control form">
-                    <span class="checkbox-fake"></span>
-                    <span class="checkbox-text">I agree to the processing of personal data</span>
+                <label class="form__label-checkbox">
+                    <input class="form__checkbox control__input" name="" type="checkbox" placeholder="checkbox" pattern="I agree to the processing of personal data" value="checkbox" form="control form">
+                    <span class="form__checkbox-anable"></span>
+                    <span class="form__checkbox-text">I agree to the processing of personal data</span>
                 </label>
             </form>
-            <button class="buttot">What is your name:</button>
+            <button class="button control__button-submit" type="submit">SUMBIT</button>
         </section>
         <section class="section">
 
@@ -132,7 +134,7 @@
             </ul>
         </nav>
         <a href="#" class="phone link">+7 (928) 768-32-39</a>
-        <button class="button footer__button">Request a call</button>
+        <button class="button footer__button" type="button">Request a call</button>
     </footer>
 </body>
 </html>
