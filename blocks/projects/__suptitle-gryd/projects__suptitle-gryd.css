@@ -5,3 +5,10 @@
     line-height: 135.84%;
     text-align: left;
 }
+
+@media screen and (min-width: 1300px) {
+    .projects__suptitle-gryd {
+        font-size: 13px;
+        line-height: 21px;
+    }
+}

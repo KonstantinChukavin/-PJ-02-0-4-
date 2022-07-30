@@ -1,4 +1,9 @@
 .slider {
-    margin: 70px auto 0;
-    max-width: 340px;
+    margin: 36px auto 0;
+}
+
+@media screen and (min-width: 1300px) {
+    .slider {
+        margin-top: 107px;
+    }
 }

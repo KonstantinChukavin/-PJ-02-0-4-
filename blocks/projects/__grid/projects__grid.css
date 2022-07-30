@@ -1,5 +1,6 @@
 .projects__grid {
     margin: 0 18px 0;
+    max-width: 340px;
     display: grid;
     grid-template-columns: 2 1fr;
     grid-template-rows: 4 1fr;
@@ -13,11 +14,12 @@
 
 @media screen and (min-width: 1300px) {
     .projects__grid {
+        max-width: 1440px;
         grid-template-areas:
             "title title menu"
             "title title img"
             "sity apartament img"
             "time cost img"
-            "switch switch img"
+            "switch switch img";
     }
 }
