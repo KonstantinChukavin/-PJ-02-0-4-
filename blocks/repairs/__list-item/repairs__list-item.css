@@ -1,0 +1,9 @@
+.repairs__list-item {
+    margin: 0;
+    margin-top: 4;
+    padding: 0;
+}
+
+.repairs__list-item:first-child {
+    margin-top: 0;
+}

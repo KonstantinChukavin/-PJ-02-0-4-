@@ -79,7 +79,22 @@
 @import url(../blocks/form/__checkbox-anable/form__checkbox-anable.css);
 @import url(../blocks/form/__checkbox-text/form__checkbox-text.css);
 /*__________________________________________________________*/
-
+@import url(../blocks/repairs/repairs.css);
+@import url(../blocks/repairs/__title/repairs__title.css);
+@import url(../blocks/repairs/__block/repairs__block.css);
+@import url(../blocks/repairs/__title-block/repairs__title-block.css);
+@import url(../blocks/repairs/__list/repairs__list.css);
+@import url(../blocks/repairs/__list-items/repairs__list-items.css);
+@import url(../blocks/repairs/__list-item/repairs__list-item.css);
+@import url(../blocks/repairs/__button/repairs__button.css);
+@import url(../blocks/repairs/__image/repairs__image.css);
+/*__________________________________________________________*/
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__slider/section__slider.css);
+@import url(../blocks/section/__title/section__title.css);
+/*__________________________________________________________*/
+@import url(../blocks/section-footer/section-footer.css);
+@import url(../blocks/section-footer/__title/section-footer__title.css);
 
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
