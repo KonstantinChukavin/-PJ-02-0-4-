@@ -1,11 +1,10 @@
 .repairs__list {
     padding-top: 21px;
+    padding-bottom: 40px;
     margin-top: -150px;
     width: 270px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
     text-align: left;
     position: relative;
-    overflow: hidden;
-    z-index: 0;
 }

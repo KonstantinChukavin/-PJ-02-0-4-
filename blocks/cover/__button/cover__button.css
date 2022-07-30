@@ -1,6 +1,6 @@
 .cover__button {
     margin: 32px 18px 0;
-    width: 340px;
+    min-width: 340px;
     height: 51px;
     border-radius: 0;
     box-sizing: border-box;

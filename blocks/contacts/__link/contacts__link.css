@@ -1,0 +1,15 @@
+.contacts__link {
+    margin: 0;
+    margin-right: 21px;
+    width: 39px;
+    height: 39px;
+    background-color: #E3B873;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacts__link:last-child {
+    margin-right: 0;
+}

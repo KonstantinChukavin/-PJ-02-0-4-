@@ -1,0 +1,7 @@
+.contacts__links {
+    margin: 24px auto 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}

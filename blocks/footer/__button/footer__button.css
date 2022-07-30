@@ -1,5 +1,5 @@
 .footer__button {
-    width: 161px;
-    height: 37px;
+    min-width: 161px;
+    min-height: 37px;
     display: block;
 }

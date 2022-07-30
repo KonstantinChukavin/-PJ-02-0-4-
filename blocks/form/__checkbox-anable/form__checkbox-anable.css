@@ -1,7 +1,7 @@
 .form__checkbox-anable {
     display: inline-flex;
-    width: 18px;
-    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
     background: #E3B873;
     color: #fff;
     justify-content: center;

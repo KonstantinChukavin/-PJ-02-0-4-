@@ -1,6 +1,6 @@
 .header__button {
-    width: 161px;
-    height: 37px;
+    min-width: 161px;
+    min-height: 37px;
     justify-content: center;
     align-items: center;
 }
