@@ -6,3 +6,12 @@
     text-transform: uppercase;
     text-align: left;
 }
+
+@media screen and (min-width: 1300px) {
+    .cover__title {
+        max-width: 500px;
+        margin: 194px auto 0 134px;
+        font-size: 40px;
+        line-height: 53px;
+    }
+}

@@ -1,0 +1,11 @@
+.footer__block {
+    margin: 0 auto;
+    width: 1440px;
+    padding: 48px 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    box-sizing: border-box;
+}

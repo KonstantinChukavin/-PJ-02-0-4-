@@ -1,0 +1,8 @@
+.projects__switchi-left {
+    width: 42px;
+    margin-right: 30px;
+    background-image: url(../../../images/projects/left.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

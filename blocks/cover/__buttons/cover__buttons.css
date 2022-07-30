@@ -1,0 +1,17 @@
+.cover__buttons {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1300px) {
+    .cover__buttons {
+        margin-left: 134px;
+        margin-right: auto;
+        flex-direction: row;
+        text-align: left;
+        justify-content: left;
+    }
+}

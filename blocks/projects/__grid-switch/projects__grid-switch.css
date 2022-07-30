@@ -1,0 +1,9 @@
+.projects__grid-switch {
+    margin: 0;
+    max-width: 206px;
+    grid-area: switch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}

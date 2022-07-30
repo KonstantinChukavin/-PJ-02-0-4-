@@ -1,0 +1,13 @@
+.cover__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 1300px) {
+    .cover__block {
+        min-width: 1440px;
+    }
+}

@@ -14,7 +14,11 @@
 /*__________________________________________________________*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/hyader__logo.css);
-@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__content/header__content.css);
+/*__________________________________________________________*/
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__button/contact__button.css);
+@import url(../blocks/contact/__phone/contact__phone.css);
 /*__________________________________________________________*/
 @import url(../blocks/content/content.css);
 /*__________________________________________________________*/
@@ -22,7 +26,7 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__links/nav__links.css);
 /*__________________________________________________________*/
-@import url(../blocks/phone/phone.css);
+
 /*__________________________________________________________*/
 @import url(../blocks/button/button.css);
 /*__________________________________________________________*/
@@ -33,6 +37,8 @@
 @import url(../blocks/suptitle/suptitle.css);
 /*__________________________________________________________*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__block/cover__block.css);
+@import url(../blocks/cover/__buttons/cover__buttons.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__suptitle/cover__suptitle.css);
@@ -43,6 +49,7 @@
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__suptitle/projects__suptitle.css);
 @import url(../blocks/projects/__grid/projects__grid.css);
+@import url(../blocks/projects/__grid-title/projects__grid-title.css);
 @import url(../blocks/projects/__grid-slider/projects__grid-slider.css);
 @import url(../blocks/projects/__grid-city/projects__grid-city.css);
 @import url(../blocks/projects/__grid-apartament/projects__grid-apartament.css);
@@ -50,6 +57,14 @@
 @import url(../blocks/projects/__grid-time/projects__grid-time.css);
 @import url(../blocks/projects/__title-gryd/projects__title-gryd.css);
 @import url(../blocks/projects/__suptitle-gryd/projects__suptitle-gryd.css);
+@import url(../blocks/projects/__grid-menu/projects__grid-menu.css);
+@import url(../blocks/projects/__grid-link/projects__grid-link.css);
+@import url(../blocks/projects/__grid-image/projects__grid-image.css);
+@import url(../blocks/projects/__grid-switch/projects__grid-switch.css);
+@import url(../blocks/projects/__switchi-left/projects__switchi-left.css);
+@import url(../blocks/projects/__switchi-bubble/projects__switchi-bubble.css);
+@import url(../blocks/projects/__switchi-right/projects__switchi-right.css);
+@import url(../blocks/projects/__activ-bubble/projects__activ-bubble.css);
 /*__________________________________________________________*/
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__button/slider__button.css);
@@ -108,6 +123,7 @@
 
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__block/footer__block.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__button/footer__button.css);
 /*__________________________________________________________*/

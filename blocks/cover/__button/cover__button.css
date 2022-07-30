@@ -1,7 +1,14 @@
 .cover__button {
     margin: 32px 18px 0;
     min-width: 340px;
-    height: 51px;
+    min-height: 51px;
     border-radius: 0;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 1300px) {
+    .cover__button {
+        margin: 41px 20px 208px 0;
+        min-width: 207px;
+    }
 }

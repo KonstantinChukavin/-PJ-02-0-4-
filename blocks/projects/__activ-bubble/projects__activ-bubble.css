@@ -1,0 +1,6 @@
+.projects__activ-bubble {
+    background-image: url(../../../images/projects/bubble_activ.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

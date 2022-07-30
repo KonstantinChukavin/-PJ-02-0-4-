@@ -2,10 +2,22 @@
     margin: 0 18px 0;
     display: grid;
     grid-template-columns: 2 1fr;
-    grid-template-rows: 3 1fr;
+    grid-template-rows: 4 1fr;
     gap: 38px 38px;
     grid-template-areas:
+        "title title"
         "slider slider"
         "sity apartament"
         "time cost"
+}
+
+@media screen and (min-width: 1300px) {
+    .projects__grid {
+        grid-template-areas:
+            "title title menu"
+            "title title img"
+            "sity apartament img"
+            "time cost img"
+            "switch switch img"
+    }
 }

@@ -1,0 +1,4 @@
+.projects__grid-image {
+    max-width: 680px;
+    grid-area: img;
+}

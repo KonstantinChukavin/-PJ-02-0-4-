@@ -3,3 +3,9 @@
     border: 1px solid #FFF;
     margin-bottom: 61px;
 }
+
+@media screen and (min-width: 1300px) {
+    .cover__button_style {
+        margin-bottom: 208px;
+    }
+}

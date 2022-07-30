@@ -1,0 +1,16 @@
+.projects__grid-link {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.projects__grid-link:hover {
+    text-decoration: underline;
+    color: rgba(227, 184, 115, 1);
+    transition-duration: .3s;
+}

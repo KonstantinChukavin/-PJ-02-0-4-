@@ -1,0 +1,17 @@
+.projects__switchi-bubble {
+    width: 10px;
+    margin-right: 18px;
+    background-image: url(../../../images/projects/bubble.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.projects__switchi-bubble:nth-child(4) {
+    margin-right: 0;
+}
+
+.projects__switchi-bubble::before {
+    cursor: pointer;
+    background-image: url(../../../images/projects/bubble_activ.svg);
+}

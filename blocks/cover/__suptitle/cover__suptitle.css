@@ -5,3 +5,12 @@
     line-height: 135.84%;
     text-align: left;
 }
+
+@media screen and (min-width: 1300px) {
+    .cover__suptitle {
+        max-width: 500px;
+        margin: 19px auto 0 134px;
+        font-size: 22px;
+        line-height: 36px;
+    }
+}

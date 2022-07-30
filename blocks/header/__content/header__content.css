@@ -1,0 +1,16 @@
+.header__content {
+    margin: 0 auto;
+    padding: 21px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1300px) {
+    .header__content {
+        max-width: 1440px;
+        padding: 24px 90px;
+    }
+}

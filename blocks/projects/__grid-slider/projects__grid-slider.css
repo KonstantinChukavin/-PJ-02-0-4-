@@ -2,3 +2,9 @@
     margin: 0 auto;
     grid-area: slider;
 }
+
+@media screen and (min-width: 1300px) {
+    .projects__grid-slider {
+        display: none;
+    }
+}
