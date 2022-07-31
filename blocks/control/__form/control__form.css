@@ -9,6 +9,7 @@
     .control__form {
         margin-top: 90px;
         min-width: 820px;
+        justify-content: space-between;
         display: grid;
         grid-template-columns: 3 1fr;
         grid-template-rows: 2 1fr;
