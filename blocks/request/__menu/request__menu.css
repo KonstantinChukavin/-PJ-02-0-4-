@@ -1,0 +1,8 @@
+.request__menu {
+    min-width: 620px;
+    background-image: url(../../../images/request/backround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}

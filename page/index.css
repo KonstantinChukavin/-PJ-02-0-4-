@@ -110,13 +110,6 @@
 @import url(../blocks/repairs/__button/repairs__button.css);
 @import url(../blocks/repairs/__image/repairs__image.css);
 /*__________________________________________________________*/
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/__slider/section__slider.css);
-@import url(../blocks/section/__title/section__title.css);
-/*__________________________________________________________*/
-@import url(../blocks/section-footer/section-footer.css);
-@import url(../blocks/section-footer/__title/section-footer__title.css);
-/*__________________________________________________________*/
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__image/contacts__image.css);
 @import url(../blocks/contacts/__items/contacts__items.css);
@@ -126,6 +119,21 @@
 @import url(../blocks/contacts/__link/contacts__link.css);
 @import url(../blocks/contacts/__link-mail/contacts__link-mail.css);
 @import url(../blocks/contacts/__link-inst/contacts__link-inst.css);
+/*__________________________________________________________*/
+@import url(../blocks/request/request.css);
+@import url(../blocks/request/__conrainer/request__conrainer.css);
+@import url(../blocks/request/__menu/request__menu.css);
+@import url(../blocks/request/__container-form/request__container-form.css);
+@import url(../blocks/request/__link-block/request__link-block.css);
+@import url(../blocks/request/__link-one/request__link-one.css);
+/*__________________________________________________________*/
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__slider/section__slider.css);
+@import url(../blocks/section/__title/section__title.css);
+/*__________________________________________________________*/
+@import url(../blocks/section-footer/section-footer.css);
+@import url(../blocks/section-footer/__title/section-footer__title.css);
+
 
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
