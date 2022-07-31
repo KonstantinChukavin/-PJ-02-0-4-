@@ -101,6 +101,7 @@
 /*__________________________________________________________*/
 @import url(../blocks/repairs/repairs.css);
 @import url(../blocks/repairs/__title/repairs__title.css);
+@import url(../blocks/repairs/__container/repairs__container.css);
 @import url(../blocks/repairs/__block/repairs__block.css);
 @import url(../blocks/repairs/__title-block/repairs__title-block.css);
 @import url(../blocks/repairs/__list/repairs__list.css);

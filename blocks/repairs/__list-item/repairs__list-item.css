@@ -1,9 +1,18 @@
 .repairs__list-item {
     margin: 0;
-    margin-top: 4;
     padding: 0;
+    font-size: 13px;
+    line-height: 169.8%;
 }
 
-.repairs__list-item:first-child {
-    margin-top: 0;
+@media screen and (min-width: 1300px) {
+    .repairs__list-item {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .repairs__list-item:first-child {
+        margin-top: 0;
+    }
+
 }

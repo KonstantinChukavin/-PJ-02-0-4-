@@ -1,0 +1,13 @@
+.repairs__container {
+    margin: 0 auto;
+    min-width: 340px;
+}
+
+@media screen and (min-width: 1300px) {
+    .repairs__container {
+        min-width: 1240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
