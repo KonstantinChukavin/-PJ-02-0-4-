@@ -5,3 +5,10 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 1300px) {
+    .control {
+        background: none;
+        margin-top: -416px;
+    }
+}

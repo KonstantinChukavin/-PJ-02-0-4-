@@ -2,4 +2,15 @@
     margin: 40px 18px 0;
     min-width: 340px;
     min-height: 207px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/control/video_poster-litle.jpg);
+    box-shadow: 0px 20px 30px rgba(24, 24, 24, 0.1);
+}
+
+@media screen and (min-width: 1300px) {
+    .control__video {
+        margin-top: 20px;
+        min-width: 820px;
+        min-height: 434px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/control/video_poster-big.jpg);
+    }
 }

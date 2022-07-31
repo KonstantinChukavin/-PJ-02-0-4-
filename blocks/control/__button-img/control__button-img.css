@@ -4,3 +4,10 @@
     min-height: 12px;
     color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (min-width: 1300px) {
+    .control__button-img {
+        min-width: 28px;
+        min-height: 28px;
+    }
+}

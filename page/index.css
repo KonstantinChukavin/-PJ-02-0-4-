@@ -84,6 +84,11 @@
 @import url(../blocks/control/__form/control__form.css);
 @import url(../blocks/control/__input/control__input.css);
 @import url(../blocks/control/__button-submit/control__button-submit.css);
+@import url(../blocks/control/__grid-name/control__grid-name.css);
+@import url(../blocks/control/__grid-number/control__grid-number.css);
+@import url(../blocks/control/__grid-checkbox/control__grid-checkbox.css);
+@import url(../blocks/control/__grid-suptitle/control__grid-suptitle.css);
+@import url(../blocks/control/__checkbox-text/control__checkbox-text.css);
 /*__________________________________________________________*/
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__suptitle/form__suptitle.css);

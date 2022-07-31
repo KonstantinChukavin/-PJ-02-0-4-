@@ -1,0 +1,11 @@
+.control__checkbox-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 163.68%;
+}
+
+@media screen and (min-width: 1300px) {
+    .control__checkbox-text {
+        color: #181818;
+    }
+}

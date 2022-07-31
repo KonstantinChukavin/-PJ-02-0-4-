@@ -1,0 +1,13 @@
+.control__grid-checkbox {
+    margin: 27px 0 62px;
+    text-align: left;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1300px) {
+    .control__grid-checkbox {
+        margin: 0 auto;
+        text-align: center;
+        grid-area: checkbox;
+    }
+}

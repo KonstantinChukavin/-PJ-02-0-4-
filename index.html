@@ -97,7 +97,7 @@
                 <img class="control__image" src="./images/control/line.svg" alt="line">
             </div>
             <div class="control__video-block">
-                <video class="control__video" src="#" poster="./images/control/video_poster-litle.jpg">
+                <video class="control__video" src="#" poster="">
                 </video>
                 <button class="button slider__button control__button" type="button">
                     <img class="control__button-img" src="./images/control/button.svg" alt="button image">
@@ -105,22 +105,24 @@
             </div>
             <img class="control__image-long" src="./images/control/line_long.svg" alt="line">
             <p class="suptitle control__suptitle">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
-            <form class="form control__form" name="control form">
-                <label class="form__label-input">
-                    <p class="suptitle form__suptitle">Name</p>
-                    <input class="form__input control__input" name="name" type="text" placeholder="What is your name:" value="What is your name:" form="control form">
-                </label>
-                <label class="form__label-input">
-                    <p class="suptitle form__suptitle">Number</p>
-                    <input class="form__input control__input" name="namber" type="tel" placeholder="Your phone number:" value="Your phone number:" form="control form">
-                </label>
-                <label class="form__label-checkbox">
-                    <input class="form__checkbox control__input" name="" type="checkbox" placeholder="checkbox" pattern="I agree to the processing of personal data" value="checkbox" form="control form">
-                    <span class="form__checkbox-anable"></span>
-                    <span class="form__checkbox-text">I agree to the processing of personal data</span>
-                </label>
+            <form class="form" name="control form">
+                <div class="control__form"> 
+                    <label class="control__grid-name">
+                        <p class="suptitle control__grid-suptitle">Name</p>
+                        <input class="form__input control__input" name="name" type="text" placeholder="What is your name:" value="What is your name:" form="control form">
+                    </label>
+                    <label class="control__grid-number">
+                        <p class="suptitle control__grid-suptitle">Number</p>
+                        <input class="form__input control__input" name="namber" type="tel" placeholder="Your phone number:" value="Your phone number:" form="control form">
+                    </label>
+                    <label class="control__grid-checkbox">
+                        <input class="form__checkbox control__input" name="" type="checkbox" placeholder="checkbox" pattern="I agree to the processing of personal data" value="checkbox" form="control form">
+                        <span class="form__checkbox-anable"></span>
+                        <span class="control__checkbox-text">I agree to the processing of personal data</span>
+                    </label>
+                    <button class="button control__button-submit" type="submit">SUMBIT</button>
+                </div>
             </form>
-            <button class="button control__button-submit" type="submit">SUMBIT</button>
         </section>
         <section class="repairs">
             <h2 class="title repairs__title">TYPES OF REPAIR</h2>

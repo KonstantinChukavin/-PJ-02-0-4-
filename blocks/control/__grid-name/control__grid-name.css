@@ -1,0 +1,14 @@
+.control__grid-name {
+    color: rgba(54, 54, 54, 0.5);
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 1300px) {
+    .control__grid-name {
+        max-width: 230px;
+        margin: 0;
+        grid-area: name;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+}

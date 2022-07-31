@@ -1,0 +1,14 @@
+.control__grid-number {
+    margin-top: 63px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 1300px) {
+    .control__grid-number {
+        margin: 0;
+        max-width: 230px;
+        grid-area: number;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+}

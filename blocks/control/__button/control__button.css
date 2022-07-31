@@ -1,4 +1,14 @@
 .control__button {
     margin: -120px auto 85px;
+    /*background-image: url(../../../images/control/button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;*/
     z-index: 100;
+}
+
+@media screen and (min-width: 1300px) {
+    .control__button {
+        margin: -260px auto 238px;
+    }
 }

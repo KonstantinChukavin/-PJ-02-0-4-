@@ -6,3 +6,9 @@
     line-height: 138.6%;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1300px) {
+    .control__title {
+        margin-top: 92px;
+    }
+}
