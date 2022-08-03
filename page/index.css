@@ -132,6 +132,13 @@
 @import url(../blocks/request/__title/request__title.css);
 @import url(../blocks/request/__suptitle/request__suptitle.css);
 @import url(../blocks/request/__form/request__form.css);
+@import url(../blocks/request/__label-input/request__label-input.css);
+@import url(../blocks/request/__input/request__input.css);
+@import url(../blocks/request/__label-checkbox/request__label-checkbox.css);
+@import url(../blocks/request/__button-submit/request__button-submit.css);
+@import url(../blocks/request/__help/request__help.css);
+@import url(../blocks/request/__link-help/request__link-help.css);
+@import url(../blocks/request/__suptitle-help/request__suptitle-help.css);
 /*__________________________________________________________*/
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__slider/section__slider.css);

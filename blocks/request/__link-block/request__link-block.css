@@ -5,3 +5,7 @@
     flex-direction: row;
     align-items: center;
 }
+
+.request__link-block:last-child {
+    margin-bottom: 0;
+}
