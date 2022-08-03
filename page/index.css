@@ -140,6 +140,17 @@
 @import url(../blocks/request/__link-help/request__link-help.css);
 @import url(../blocks/request/__suptitle-help/request__suptitle-help.css);
 /*__________________________________________________________*/
+@import url(../blocks/fantasies/fantasies.css);
+@import url(../blocks/fantasies/__container/fantasies__container.css);
+@import url(../blocks/fantasies/__pictures/fantasies__pictures.css);
+@import url(../blocks/fantasies/__image-block/fatasies__image-block.css);
+@import url(../blocks/fantasies/__title/fantasies__title.css);
+@import url(../blocks/fantasies/__lists/fantasies__lists.css);
+@import url(../blocks/fantasies/__list/fantasies__list.css);
+@import url(../blocks/fantasies/__image/fatasies__image.css);
+@import url(../blocks/fantasies/__image-one/fatasies__image-one.css);
+@import url(../blocks/fantasies/__image-three/fatasies__image-three.css);
+/*__________________________________________________________*/
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__slider/section__slider.css);
 @import url(../blocks/section/__title/section__title.css);

@@ -1,0 +1,7 @@
+.fantasies__list {
+    margin-top: 25px;
+}
+
+.fantasies__list:first-child {
+    margin-top: 0px;
+}

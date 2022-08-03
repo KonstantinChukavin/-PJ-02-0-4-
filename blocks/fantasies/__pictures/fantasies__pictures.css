@@ -1,0 +1,6 @@
+.fantasies__pictures {
+    margin-top: -112px;
+    margin-bottom: -42px;
+    display: flex;
+    flex-direction: row;
+}
