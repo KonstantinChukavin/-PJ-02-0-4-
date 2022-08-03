@@ -1,0 +1,8 @@
+.clients {
+    margin: 0 auto;
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}

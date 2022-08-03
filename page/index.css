@@ -151,6 +151,18 @@
 @import url(../blocks/fantasies/__image-one/fatasies__image-one.css);
 @import url(../blocks/fantasies/__image-three/fatasies__image-three.css);
 /*__________________________________________________________*/
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__suptitle/clients__suptitle.css);
+@import url(../blocks/clients/__content/clients__content.css);
+@import url(../blocks/clients/__card/clients__card.css);
+@import url(../blocks/clients/__item/clients__item.css);
+@import url(../blocks/clients/__photo/clients__photo.css);
+@import url(../blocks/clients/__name/clients__name.css);
+@import url(../blocks/clients/__description/clients__description.css);
+@import url(../blocks/clients/__button/clients__button.css);
+@import url(../blocks/clients/__button-two/clients__button-two.css);
+/*__________________________________________________________*/
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__slider/section__slider.css);
 @import url(../blocks/section/__title/section__title.css);

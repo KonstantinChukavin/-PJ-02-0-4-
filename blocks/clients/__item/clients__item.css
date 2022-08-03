@@ -1,0 +1,6 @@
+.clients__item {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
