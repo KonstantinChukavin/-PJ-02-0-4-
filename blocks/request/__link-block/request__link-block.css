@@ -1,6 +1,5 @@
 .request__link-block {
     margin: 0;
-<<<<<<< Updated upstream
     margin-bottom: 85px;
     display: flex;
     flex-direction: row;
@@ -9,6 +8,4 @@
 
 .request__link-block:last-child {
     margin-bottom: 0;
-=======
->>>>>>> Stashed changes
 }

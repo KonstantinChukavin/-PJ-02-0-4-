@@ -5,3 +5,9 @@
     line-height: 28px;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1300px) {
+    .section-footer__title {
+        margin: 34px auto 0;
+    }
+}

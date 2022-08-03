@@ -1,5 +1,6 @@
 .contacts {
     margin: 0 auto;
+    min-width: 375px;
     display: flex;
     justify-content: center;
     text-align: center;
