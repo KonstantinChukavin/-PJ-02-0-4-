@@ -5,9 +5,13 @@
 
 @media screen and (min-width: 1300px) {
     .section-footer__form {
+        margin-top: -223px;
         width: 883px;
         padding-left: 180px;
         padding-right: 180px;
         background-color: #181818;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

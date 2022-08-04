@@ -1,0 +1,11 @@
+.section-footer__input-block {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1300px) {
+    .section-footer__input-block {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -359,20 +359,22 @@
         <section class="section-footer">
             <form class="form section-footer__form" name="control form">
                 <h2 class="title section-footer__title">have any questions?</h2>
-                <label class="form__label-input">
-                    <p class="suptitle form__suptitle">Name</p>
-                    <input class="form__input control__input" name="name" type="text" placeholder="What is your name:"
-                        value="What is your name:" form="control form">
-                </label>
-                <label class="form__label-input">
-                    <p class="suptitle form__suptitle">Number</p>
-                    <input class="form__input control__input" name="namber" type="tel" placeholder="Your phone number:"
-                        value="Your phone number:" form="control form">
-                </label>
-                <label class="form__label-input">
-                    <p class="suptitle form__suptitle">Email</p>
-                    <input class="form__input request__input" name="email" type="text"
-                        placeholder="Your email" value="Your email" form="control form">
+                <div class="section-footer__input-block">
+                    <label class="section-footer__label-input">
+                        <p class="suptitle form__suptitle section-footer__suptitle">Name</p>
+                        <input class="form__input request__input" name="name" type="text"
+                            placeholder="What is your name:" value="What is your name:" form="control form">
+                    </label>
+                    <label class="section-footer__label-input">
+                        <p class="suptitle form__suptitle section-footer__suptitle">Number</p>
+                        <input class="form__input request__input" name="namber" type="tel"
+                            placeholder="Your phone number:" value="Your phone number:" form="control form">
+                    </label>
+                </div>
+                <label class="section-footer__form-input">
+                    <p class="suptitle form__suptitle">Question</p>
+                    <input class="form__input request__input" name="Question" type="text" placeholder="Question"
+                        value="I want to know:" form="control form">
                 </label>
                 <label class="form__label-checkbox">
                     <input class="form__checkbox control__input" name="" type="checkbox" placeholder="checkbox"
@@ -380,25 +382,20 @@
                     <span class="form__checkbox-anable"></span>
                     <span class="form__checkbox-text">I agree to the processing of personal data</span>
                 </label>
-                <button class="button control__button-submit" type="submit">SUMBIT</button>
+                <button class="button section-footer__button-submit" type="submit">SUMBIT</button>
             </form>
-            <div cass="contacts">
+            <div class="contacts">
                 <img class="contacts__image" src="/images/contacts/map-litle.jpg" alt="adresse map">
-                <ul class="contacts__items">
-                    <li class="contacts__item">
-                        <h3 class="title contacts__title text-style">Rostov-on-Don, Nansen St., 239</h3>
-                    </li>
-                    <li class="contacts__item">
-                        <h3 class="title contacts__title text-style">Shopping Center Decorum</h3>
-                    </li>
-                    <li class="contacts__item">
-                        <h3 class="title contacts__title text-style">Tel +7 (928) 768 32 29</h3>
-                    </li>
-                </ul>
-                <div class="contacts__links">
-                    <a class="link contacts__link contacts__link-mail" href="#"></a>
-                    <a class="link contacts__link contacts__link-inst" href="#">
-                    </a>
+                <div class="contacts__items-block">
+                    <div class="contacts__items">
+                        <h3 class="title contacts__title text-style">Rostov-on-Don, Nansen St., 239 Shopping Center
+                            Decorum Tel +7 (928) 768 32 29</h3>
+                    </div>
+                    <div class="contacts__links">
+                        <a class="link contacts__link contacts__link-mail" href="#"></a>
+                        <a class="link contacts__link contacts__link-inst" href="#">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

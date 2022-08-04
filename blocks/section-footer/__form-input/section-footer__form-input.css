@@ -1,0 +1,12 @@
+.section-footer__form-input {
+    margin: 48px 0 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 1300px) {
+    .section-footer__form-input {
+        width: 516px;
+        margin-bottom: 46px;
+    }
+}

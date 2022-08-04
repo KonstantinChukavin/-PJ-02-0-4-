@@ -113,7 +113,6 @@
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__image/contacts__image.css);
 @import url(../blocks/contacts/__items/contacts__items.css);
-@import url(../blocks/contacts/__item/contacts__item.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/__links/contacts__links.css);
 @import url(../blocks/contacts/__link/contacts__link.css);
@@ -173,6 +172,11 @@
 @import url(../blocks/section-footer/section-footer.css);
 @import url(../blocks/section-footer/__title/section-footer__title.css);
 @import url(../blocks/section-footer/__form/section-footer__form.css);
+@import url(../blocks/section-footer/__label-input/section-footer__label-input.css);
+@import url(../blocks/section-footer/__input-block/section-footer__input-block.css);
+@import url(../blocks/section-footer/__suptitle/section-footer__suptitle.css);
+@import url(../blocks/section-footer/__form-input/section-footer__form-input.css);
+@import url(../blocks/section-footer/__button-submit/section-footer__button-submit.css);
 
 
 /*__________________________________________________________*/
